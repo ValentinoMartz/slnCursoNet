@@ -12,7 +12,7 @@ namespace Negocio
         //SIN SALIDA
         public static void Agregar(Producto Item, int Cantidad)
         {
-            //TODO...
+            //TODO....
         }
         public static void Modificar(int Cantidad)
         {
