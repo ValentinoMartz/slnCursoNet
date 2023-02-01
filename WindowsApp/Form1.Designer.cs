@@ -29,97 +29,83 @@
         private void InitializeComponent()
         {
             this.btnCrearProducto = new System.Windows.Forms.Button();
-            this.btnCrearProveedor = new System.Windows.Forms.Button();
-            this.btnCrearCliente = new System.Windows.Forms.Button();
-            this.btnCrearClienteEmpresa = new System.Windows.Forms.Button();
             this.btnCrearVendedor = new System.Windows.Forms.Button();
+            this.btnCrearEmpresa = new System.Windows.Forms.Button();
             this.btnCrearFactura = new System.Windows.Forms.Button();
             this.btnCrearRemito = new System.Windows.Forms.Button();
+            this.btnCrearCliente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCrearProducto
             // 
-            this.btnCrearProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrearProducto.Location = new System.Drawing.Point(54, 49);
+            this.btnCrearProducto.Location = new System.Drawing.Point(287, 51);
             this.btnCrearProducto.Name = "btnCrearProducto";
-            this.btnCrearProducto.Size = new System.Drawing.Size(260, 38);
+            this.btnCrearProducto.Size = new System.Drawing.Size(181, 49);
             this.btnCrearProducto.TabIndex = 0;
-            this.btnCrearProducto.Text = "Crear un producto";
+            this.btnCrearProducto.Text = "Crear producto";
             this.btnCrearProducto.UseVisualStyleBackColor = true;
             this.btnCrearProducto.Click += new System.EventHandler(this.btnCrearProducto_Click);
             // 
-            // btnCrearProveedor
-            // 
-            this.btnCrearProveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrearProveedor.Location = new System.Drawing.Point(54, 138);
-            this.btnCrearProveedor.Name = "btnCrearProveedor";
-            this.btnCrearProveedor.Size = new System.Drawing.Size(260, 38);
-            this.btnCrearProveedor.TabIndex = 1;
-            this.btnCrearProveedor.Text = "Crear un proveedor";
-            this.btnCrearProveedor.UseVisualStyleBackColor = true;
-            // 
-            // btnCrearCliente
-            // 
-            this.btnCrearCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrearCliente.Location = new System.Drawing.Point(54, 228);
-            this.btnCrearCliente.Name = "btnCrearCliente";
-            this.btnCrearCliente.Size = new System.Drawing.Size(260, 38);
-            this.btnCrearCliente.TabIndex = 2;
-            this.btnCrearCliente.Text = "Crear un Cliente (Individual)";
-            this.btnCrearCliente.UseVisualStyleBackColor = true;
-            this.btnCrearCliente.Click += new System.EventHandler(this.btnCrearCliente_Click);
-            // 
-            // btnCrearClienteEmpresa
-            // 
-            this.btnCrearClienteEmpresa.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrearClienteEmpresa.Location = new System.Drawing.Point(361, 49);
-            this.btnCrearClienteEmpresa.Name = "btnCrearClienteEmpresa";
-            this.btnCrearClienteEmpresa.Size = new System.Drawing.Size(260, 38);
-            this.btnCrearClienteEmpresa.TabIndex = 3;
-            this.btnCrearClienteEmpresa.Text = "Crear un Cliente Empresa";
-            this.btnCrearClienteEmpresa.UseVisualStyleBackColor = true;
-            // 
             // btnCrearVendedor
             // 
-            this.btnCrearVendedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrearVendedor.Location = new System.Drawing.Point(361, 138);
+            this.btnCrearVendedor.Location = new System.Drawing.Point(287, 159);
             this.btnCrearVendedor.Name = "btnCrearVendedor";
-            this.btnCrearVendedor.Size = new System.Drawing.Size(260, 38);
-            this.btnCrearVendedor.TabIndex = 4;
-            this.btnCrearVendedor.Text = "Crear un vendedor";
+            this.btnCrearVendedor.Size = new System.Drawing.Size(181, 44);
+            this.btnCrearVendedor.TabIndex = 2;
+            this.btnCrearVendedor.Text = "Crear vendedor";
             this.btnCrearVendedor.UseVisualStyleBackColor = true;
+            this.btnCrearVendedor.Click += new System.EventHandler(this.btnCrearVendedor_Click);
+            // 
+            // btnCrearEmpresa
+            // 
+            this.btnCrearEmpresa.Location = new System.Drawing.Point(287, 209);
+            this.btnCrearEmpresa.Name = "btnCrearEmpresa";
+            this.btnCrearEmpresa.Size = new System.Drawing.Size(181, 39);
+            this.btnCrearEmpresa.TabIndex = 3;
+            this.btnCrearEmpresa.Text = "Crear empresa";
+            this.btnCrearEmpresa.UseVisualStyleBackColor = true;
+            this.btnCrearEmpresa.Click += new System.EventHandler(this.btnCrearEmpresa_Click);
             // 
             // btnCrearFactura
             // 
-            this.btnCrearFactura.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrearFactura.Location = new System.Drawing.Point(361, 228);
+            this.btnCrearFactura.Location = new System.Drawing.Point(287, 263);
             this.btnCrearFactura.Name = "btnCrearFactura";
-            this.btnCrearFactura.Size = new System.Drawing.Size(260, 38);
-            this.btnCrearFactura.TabIndex = 5;
-            this.btnCrearFactura.Text = "Crear un factura";
+            this.btnCrearFactura.Size = new System.Drawing.Size(181, 39);
+            this.btnCrearFactura.TabIndex = 4;
+            this.btnCrearFactura.Text = "Crear factura";
             this.btnCrearFactura.UseVisualStyleBackColor = true;
+            this.btnCrearFactura.Click += new System.EventHandler(this.btnCrearFactura_Click);
             // 
             // btnCrearRemito
             // 
-            this.btnCrearRemito.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCrearRemito.Location = new System.Drawing.Point(206, 315);
+            this.btnCrearRemito.Location = new System.Drawing.Point(287, 320);
             this.btnCrearRemito.Name = "btnCrearRemito";
-            this.btnCrearRemito.Size = new System.Drawing.Size(260, 38);
-            this.btnCrearRemito.TabIndex = 6;
-            this.btnCrearRemito.Text = "Crear un remito";
+            this.btnCrearRemito.Size = new System.Drawing.Size(181, 40);
+            this.btnCrearRemito.TabIndex = 5;
+            this.btnCrearRemito.Text = "Crear remito";
             this.btnCrearRemito.UseVisualStyleBackColor = true;
+            this.btnCrearRemito.Click += new System.EventHandler(this.btnCrearRemito_Click);
+            // 
+            // btnCrearCliente
+            // 
+            this.btnCrearCliente.Location = new System.Drawing.Point(287, 106);
+            this.btnCrearCliente.Name = "btnCrearCliente";
+            this.btnCrearCliente.Size = new System.Drawing.Size(181, 47);
+            this.btnCrearCliente.TabIndex = 6;
+            this.btnCrearCliente.Text = "Crear cliente";
+            this.btnCrearCliente.UseVisualStyleBackColor = true;
+            this.btnCrearCliente.Click += new System.EventHandler(this.btnCrearCliente_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(674, 401);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCrearCliente);
             this.Controls.Add(this.btnCrearRemito);
             this.Controls.Add(this.btnCrearFactura);
+            this.Controls.Add(this.btnCrearEmpresa);
             this.Controls.Add(this.btnCrearVendedor);
-            this.Controls.Add(this.btnCrearClienteEmpresa);
-            this.Controls.Add(this.btnCrearCliente);
-            this.Controls.Add(this.btnCrearProveedor);
             this.Controls.Add(this.btnCrearProducto);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -130,12 +116,11 @@
         #endregion
 
         private System.Windows.Forms.Button btnCrearProducto;
-        private System.Windows.Forms.Button btnCrearProveedor;
-        private System.Windows.Forms.Button btnCrearCliente;
-        private System.Windows.Forms.Button btnCrearClienteEmpresa;
         private System.Windows.Forms.Button btnCrearVendedor;
+        private System.Windows.Forms.Button btnCrearEmpresa;
         private System.Windows.Forms.Button btnCrearFactura;
         private System.Windows.Forms.Button btnCrearRemito;
+        private System.Windows.Forms.Button btnCrearCliente;
     }
 }
 
